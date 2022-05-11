@@ -28,6 +28,10 @@ paths:
             application/json:
               schema:
                 type: string
+          headers:
+            x-anothercustomheader:
+              schema:
+                type: string
       operationId: get-user
       description: Header test resource
       parameters:
